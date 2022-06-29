@@ -1,0 +1,19 @@
+.body {
+	font-size: 10px;
+}
+.row {
+	display: flex;
+	margin: 0 auto;
+	width: 20rem;
+
+}
+.block {
+	width: 5rem;
+	height: 5rem;
+	border: 2px solid green;
+	font-size: 5rem;
+	text-align: center;
+	align-content: center;
+	color: red;
+}
+
