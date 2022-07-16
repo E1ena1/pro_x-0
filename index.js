@@ -3,6 +3,7 @@ let numberOfPlayers = 2;
 let won = false;
 
 
+
 function place(box) {
 	if (box.innerText != "" || won) return;
 	box.innerText = currentPlayer;
@@ -30,5 +31,6 @@ function checkWinner (first, second, third) {
 	if (first != "" && first == second && first == third) {
 		won = true;
 		document.body.style.background = "blue";
+		document.getElementById('winner').style.display = 'block';
 	}
 }

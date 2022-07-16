@@ -16,4 +16,10 @@
 	align-content: center;
 	color: red;
 }
-
+#winner {
+	margin: 100px auto 0;
+	width: fit-content;
+	font-size: 50px;
+	color: white;
+	display: none;
+}
